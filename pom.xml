@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.e24u</groupId>
-	<artifactId>configuration</artifactId>
+	<artifactId>ms-core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>configuration</name>
-	<description>Stores the application configuration</description>
+	<name>core</name>
+	<description>Application core functionality</description>
 	<properties>
 		<java.version>17</java.version>
 		<testcontainers.version>1.17.3</testcontainers.version>
@@ -34,6 +34,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
+			<version>42.4.1</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>

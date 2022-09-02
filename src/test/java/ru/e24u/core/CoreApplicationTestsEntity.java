@@ -1,4 +1,4 @@
-package ru.e24u.configuration;
+package ru.e24u.core;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,7 +16,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
         "spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect"
     }
 )
-class ConfigurationApplicationTests {
+class CoreApplicationTestsEntity {
 
     @Container
     private PostgreSQLContainer postgresqlContainer = new PostgreSQLContainer()

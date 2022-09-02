@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: e24u
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: sa
