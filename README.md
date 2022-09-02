@@ -1,0 +1,2 @@
+# ms-configuration
+Application configuration
